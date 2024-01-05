@@ -171,6 +171,7 @@ div.textbox2 {
         margin-left: auto;
         margin-right: auto;
         display: block;
+		padding-left: 0;
     }
 
     div.flex1 {
