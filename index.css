@@ -173,6 +173,7 @@ div.textbox2 {
 	height: 500px;
 	width: 300px;
 	margin-left: 0px;
+	align-items: center;
 	}
     div.flex1 {   
     flex-direction: column;
