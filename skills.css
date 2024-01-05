@@ -215,7 +215,10 @@ a.githubLink:hover {
 	}
     div.flexTest {
     flex-direction: column;
-		text-align: center;
+        align-items: center;
+        width: 100%; 
+        margin: 0; 
+        padding: 20px;
 	}
 	div.textboxTest {
 		padding-right: 0;
