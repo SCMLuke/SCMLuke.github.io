@@ -206,8 +206,8 @@ a.githubLink:hover {
 @media (max-width: 1450px) {
 	img.projectsImage,
 	img.imageTest {
-		height: 400px;
-		width: 400px;
+		height: 300px;
+		width: 300px;
 		flex-direction: column;
 		margin-left: auto;
 		margin-right: auto;
