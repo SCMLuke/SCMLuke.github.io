@@ -217,7 +217,6 @@ a.githubLink:hover {
         align-items: center;
         width: 100%;
         margin: 0;
-        padding: 20px;
     }
 
     div.textboxTest {
@@ -226,6 +225,6 @@ a.githubLink:hover {
         padding-top: 0px;
         width: auto;
         height: auto;
-        margin: auto;
+		margin: 40px;
     }
 }

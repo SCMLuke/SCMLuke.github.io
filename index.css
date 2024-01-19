@@ -164,7 +164,7 @@ div.textbox2 {
 	font-size: 25px;
 	font-family: 'Hanuman';
 }
-@media (max-width: 1200px) {
+@media (max-width: 1400px) {
     img.myself {
         height: 500px;
         width: 300px;
@@ -178,7 +178,6 @@ div.textbox2 {
         align-items: center;
         width: 100%; 
         margin: 0; 
-        padding: 20px;
     }
 
     div.textbox1 {
@@ -187,6 +186,6 @@ div.textbox2 {
         padding-top: 0px;
         width: auto;
         height: auto;
-        margin: auto;
+        margin: 40px;;
     }
 }
