@@ -1,40 +1,124 @@
 <!DOCTYPE html>
-<HTML>
-<Head>
-	<Title>HomePage</Title>
-	<meta name='viewport' content='width=device-width, initial-scale=1.0'>
-	<link rel="stylesheet" href="index.css"					<!--Link to CSS file-->
-	<link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet'>
-	<link href='https://fonts.googleapis.com/css?family=Hanuman' rel='stylesheet'>
-</Head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+    <Link rel="stylesheet" href="styles.css"></Link>
+</head>
+<body>
 
-<Body>
-		<a id="top"></a>
-		<ul class="navbar">
-			<li class="nav1"><a class="linkypoo" href="index.html">Home</a></li>
-			<li class="nav1"><a class="linkypoo" href="contact.html">Contact</a></li>
-			<li class="nav1"><a class="linkypoo"href="skills.html">Resume/Portfolio</a></li>
-		</ul>
-	</header>
-	
-	<div class="intromessage">I Am Lucas Allison.</div>
-	<div class="intromessage">A software developer based in Nova Scotia.</div>
-	
-	<div class="flex1">
-		<div class="image1"><img class="myself" src="myself.JPG" alt="myself"></div>
-		<div class="textbox1">I am knowledgeable in various topics, including Java, Springboot, MVC Design, Data Structures, Design Patterns, C++, Android, SQL, HTML/CSS/PHP, and much more.  <br><br> To learn more about myself or my qualifications, follow the links above.</div>
-	</div>
-	
-	<div class="flex1">
-		<div class="textbox2">UPDATES<br><br>...</div>
-	</div>
-	
-	
-	<footer class="footerflex">
-		<div class="footertext">
-			<a class="footerstyling" href="#top">Top of Page</a>
-		</div>
-	</footer>
-</Body>
-</HTML>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="navbar_container">
 
+            <a href="#home" id="navbar_logo">Lucas Allison</a>
+            <div class="navbar_toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+
+            <ul class="navbar_menu">
+                <li class="navbar_item">
+                    <a href="#home" class="navbar_links" id="home-page">Home</a>
+                </li>
+                <li class="navbar_item">
+                    <a href="#about" class="navbar_links" id="about-page">About</a>
+                </li>
+                <li class="navbar_item">
+                    <a href="#projects" class="navbar_links" id="projects-page">Projects</a>
+                </li>
+                <li class="navbar_item">
+                    <a href="#contact" class="navbar_links" id="contact-page">Contact</a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <div class="home" id="home">
+        <div class="home_container">
+            <h1 class="home_heading">I am Lucas Allison</h1>
+            <p class="home_description">A software developer from Nova Scotia</p>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <div class="about" id="about">
+        <div class="about_container">
+            <div class="about_image_container">
+                <div class="image_container">
+                    <img src="myself.png" alt="Picture of myself">
+                </div>
+            </div>
+            <div class="about_content">
+                <h1 class="about_heading">Who am I?</h1>
+                <p class="about_description">Personal DescriptionPersonal DescriptionPersonal DescriptionPersonal Description</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Projects Section -->
+    <div class="projects" id="projects">
+        <h1>My Projects</h1>
+        <div class="projects_wrapper">
+            <div class="projects_card">
+                <h2>Project Title</h2>
+                <p>Project Description</p>
+                <div class="projects_github_button">
+                    <button>GitHub Link</button>
+                </div>
+            </div>
+            <div class="projects_card">
+                <h2>Project Title</h2>
+                <p>Project Description</p>
+                <div class="projects_github_button">
+                    <button>GitHub Link</button>
+                </div>
+            </div>
+            <div class="projects_card">
+                <h2>Project Title</h2>
+                <p>Project Description</p>
+                <div class="projects_github_button">
+                    <button>GitHub Link</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div class="contact" id="contact">
+        <div class="contact_container">
+            <div class="contact_content">
+                <h1 class="contact_heading">GitHub</h1>
+                <div class="github_button">
+                    <button>Link</button>
+                </div>
+            </div>
+            <div class="contact_content">
+                <h1 class="contact_heading">Email</h1>
+                <p class="contact_description">somecallmeluke@gmail.com</p>
+            </div>
+            <div class="contact_content">
+                <h1 class="contact_heading">LinkedIn</h1>
+                <div class="linkedin_button">
+                    <button>Link</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <div class="footer">
+        <div class="footer_text">
+            <li>
+                <a href="#home" class="footer_link">Top</a>
+            </li>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
