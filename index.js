@@ -29,12 +29,12 @@ const highlightMenu = () => {
         homeMenu.classList.remove('highlight')
         projectsMenu.classList.remove('highlight')
         return
-    } else if (window.innerWidth > 960 && scrollPos < 2200) {
+    } else if (window.innerWidth > 960 && scrollPos < 2000) {
         projectsMenu.classList.add('highlight')
         aboutMenu.classList.remove('highlight')
         contactMenu.classList.remove('highlight')
         return
-    } else if (window.innerWidth > 960 && scrollPos < 2600) {
+    } else if (window.innerWidth > 960 && scrollPos < 2400) {
         contactMenu.classList.add('highlight')
         projectsMenu.classList.remove('highlight')
         return

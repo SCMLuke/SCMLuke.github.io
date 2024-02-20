@@ -3,10 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Website</title>
-    <Link rel="stylesheet" href="styles.css"></Link>
+    <title>Lucas Allison</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+
+    <Link rel="stylesheet" href="index.css"></Link>
 </head>
 <body>
+
+
 
     <!-- Navigation Bar -->
     <nav class="navbar">
@@ -37,6 +44,8 @@
         </div>
     </nav>
 
+
+
     <!-- Home Section -->
     <div class="home" id="home">
         <div class="home_container">
@@ -44,6 +53,8 @@
             <p class="home_description">A software developer from Nova Scotia</p>
         </div>
     </div>
+
+
 
     <!-- About Section -->
     <div class="about" id="about">
@@ -55,38 +66,53 @@
             </div>
             <div class="about_content">
                 <h1 class="about_heading">Who am I?</h1>
-                <p class="about_description">Personal DescriptionPersonal DescriptionPersonal DescriptionPersonal Description</p>
+                <p class="about_description">Passionate. Dedicated.</p>
+                <p class="about_description">An eager to learn software developer currently studying at NSCC. Looking for any opportunities expand my knowledge and contribute. </p>
+                <p class="about_description">Looking for someone to join your team? Send me an email, found below.</p>
             </div>
         </div>
     </div>
+
+
 
     <!-- Projects Section -->
     <div class="projects" id="projects">
         <h1>My Projects</h1>
         <div class="projects_wrapper">
             <div class="projects_card">
-                <h2>Project Title</h2>
-                <p>Project Description</p>
+                <h2>Blackjack</h2>
+                <p>Fully functional Blackjack game with score counter utilizing JavaScript. Click below to play.</p>
                 <div class="projects_github_button">
-                    <button>GitHub Link</button>
+                    <a href="Blackjack\blackjack.html">
+                        <button>Play</button>
+                    </a>
+                    <a href="https://github.com/SCMLuke/Blackjack">
+                        <button>GitHub Link</button>
+                    </a>
                 </div>
             </div>
             <div class="projects_card">
-                <h2>Project Title</h2>
-                <p>Project Description</p>
+                <h2>Monster Battler</h2>
+                <p>A program where the user inputs their choice of class and weapon, then battles a randomly generated monster. Made with Java and utilizes SWING for front-end.</p>
                 <div class="projects_github_button">
-                    <button>GitHub Link</button>
+                    <a href="https://github.com/SCMLuke/Character-RPG-Game">
+                        <button>GitHub Link</button>
+                    </a>
                 </div>
             </div>
             <div class="projects_card">
-                <h2>Project Title</h2>
-                <p>Project Description</p>
+                <h2>Grade Calculator</h2>
+                <p>Program that allows the user to enter new student data, then organize or change the data based on a given input. Made in C++.</p>
                 <div class="projects_github_button">
-                    <button>GitHub Link</button>
+                    <a href="https://github.com/SCMLuke/CPlusPlus-Grade-Calculation-Program">
+                        <button>GitHub Link</button>
+                    </a>
                 </div>
             </div>
         </div>
     </div>
+
+
 
     <!-- Contact Section -->
     <div class="contact" id="contact">
@@ -94,7 +120,9 @@
             <div class="contact_content">
                 <h1 class="contact_heading">GitHub</h1>
                 <div class="github_button">
-                    <button>Link</button>
+                    <a href="https://github.com/SCMLuke">
+                        <button>Link</button>
+                    </a>
                 </div>
             </div>
             <div class="contact_content">
@@ -104,11 +132,15 @@
             <div class="contact_content">
                 <h1 class="contact_heading">LinkedIn</h1>
                 <div class="linkedin_button">
-                    <button>Link</button>
+                    <a href="https://www.linkedin.com/in/lucasallison/">
+                        <button>Link</button>
+                    </a>
                 </div>
             </div>
         </div>
     </div>
+
+
 
     <!-- Footer Section -->
     <div class="footer">
@@ -119,6 +151,6 @@
         </div>
     </div>
 
-    <script src="app.js"></script>
+    <script src="index.js"></script>
 </body>
 </html>
